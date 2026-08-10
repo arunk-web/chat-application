@@ -160,8 +160,7 @@ The app will be available at `http://localhost:5173`.
 - "Delivered" status reflects that the message was successfully saved to the database and broadcast by the server — not per-recipient device delivery, since the app is not structured around 1-to-1 rooms.
 - The app is intended to be used with a modern browser with WebSocket support.
 
-## Known Limitations / Future Improvements
+## Live Demo
 
-- No persistent read receipts per user (would require tracking `readBy` arrays per message and per-user chat state).
-- No message pagination — all messages are loaded on refresh (fine for assignment scope, would need pagination for a production-scale chat history).
-- No reconnection UI feedback if the backend goes down mid-session.
+- Frontend: chat-application-sable-three.vercel.app
+- Backend API: https://chat-application-backend-3rp0.onrender.com

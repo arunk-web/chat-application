@@ -10,7 +10,7 @@ const socketHandler = require('./socket/socketHandler');
 
 const app = express();
 
-app.use(cors({ origin: 'chat-application-sable-three.vercel.app' }));
+app.use(cors({ origin: 'https://chat-application-sable-three.vercel.app' }));
 app.use(express.json());
 
 connectDB();
@@ -25,7 +25,7 @@ const server = http.createServer(app);
 
 const io = new Server(server, {
   cors: {
-    origin: 'chat-application-sable-three.vercel.app',
+    origin: 'https://chat-application-sable-three.vercel.app',
     methods: ['GET', 'POST'],
   },
 });

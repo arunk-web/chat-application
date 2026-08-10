@@ -162,5 +162,5 @@ The app will be available at `http://localhost:5173`.
 
 ## Live Demo
 
-- Frontend: chat-application-sable-three.vercel.app
+- Frontend: https://chat-application-sable-three.vercel.app
 - Backend API: https://chat-application-backend-3rp0.onrender.com
